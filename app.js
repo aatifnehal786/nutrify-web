@@ -3,10 +3,10 @@ const express = require('express')
 const mongoose = require('mongoose')
 const jwt = require('jsonwebtoken')
 const bcrypt = require('bcryptjs')
-const userModel = require('./Models/userModel')
+const userModel = require('./userModel')
 const verifiedToken = require('./verifiedToken')
-const foodModel = require('./Models/foodModel')
-const trackingModel = require('./Models/trackingModel')
+const foodModel = require('./foodModel')
+const trackingModel = require('./trackingModel')
 const cors = require('cors')
 const PORT = process.env.PORT || 8000
 
